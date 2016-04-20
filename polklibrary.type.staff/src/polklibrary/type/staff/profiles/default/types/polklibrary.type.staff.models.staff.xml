@@ -21,6 +21,7 @@
  <property name="klass">plone.dexterity.content.Item</property>
  <property name="behaviors">
   <element value="plone.app.content.interfaces.INameFromTitle"/>
+  <element value="plone.app.dexterity.behaviors.metadata.ICategorization"/>
  </property>
  <property name="schema">polklibrary.type.staff.models.staff.IStaff</property>
  <alias from="(Default)" to="(dynamic view)"/>
