@@ -3,6 +3,14 @@ from plone.app.textfield import RichText
 from plone.namedfile.field import NamedBlobImage
 from plone.supermodel import model
 from zope import schema
+from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
+
+campus_types = SimpleVocabulary([
+    SimpleTerm(value=u'', title=u''),
+    SimpleTerm(value=u'Polk Library', title=u'Polk Library'),
+    SimpleTerm(value=u'Fox Valley Library', title=u'Fox Valley Library'),
+    SimpleTerm(value=u'Fond du Lac Library', title=u'Fond du Lac Library'),
+])
 
 class IStaff(model.Schema):
 
@@ -14,6 +22,13 @@ class IStaff(model.Schema):
     position = schema.TextLine(
             title=u"Position",
             required=True,
+        )
+        
+    campus = schema.Choice(
+            title=u"Campus",
+            source=campus_types,
+            default=u"Polk Library",
+            required=False,
         )
         
     department = schema.TextLine(

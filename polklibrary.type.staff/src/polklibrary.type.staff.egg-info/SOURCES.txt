@@ -29,7 +29,6 @@ src/polklibrary/type/staff/browser/staffview.py
 src/polklibrary/type/staff/browser/overrides/.gitkeep
 src/polklibrary/type/staff/browser/static/.gitkeep
 src/polklibrary/type/staff/browser/static/staff-default.jpg
-src/polklibrary/type/staff/browser/static/staff.css
 src/polklibrary/type/staff/locales/polklibrary.type.staff.pot
 src/polklibrary/type/staff/locales/update.sh
 src/polklibrary/type/staff/models/__init__.py
