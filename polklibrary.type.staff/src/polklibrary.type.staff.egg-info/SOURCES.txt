@@ -33,7 +33,6 @@ src/polklibrary/type/staff/locales/polklibrary.type.staff.pot
 src/polklibrary/type/staff/locales/update.sh
 src/polklibrary/type/staff/models/__init__.py
 src/polklibrary/type/staff/models/configure.zcml
-src/polklibrary/type/staff/models/new 3.js
 src/polklibrary/type/staff/models/staff.py
 src/polklibrary/type/staff/profiles/default/browserlayer.xml
 src/polklibrary/type/staff/profiles/default/catalog.xml
