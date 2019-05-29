@@ -8,7 +8,7 @@ from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
 campus_types = SimpleVocabulary([
     SimpleTerm(value=u'', title=u''),
     SimpleTerm(value=u'Polk Library', title=u'Polk Library'),
-    SimpleTerm(value=u'Fox Valley Library', title=u'Fox Valley Library'),
+    SimpleTerm(value=u'Fox Valley Library', title=u'Fox Cities Library'),
     SimpleTerm(value=u'Fond du Lac Library', title=u'Fond du Lac Library'),
 ])
 
