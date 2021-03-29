@@ -14,3 +14,5 @@ class StaffView(BrowserView):
     def portal(self):
         return api.portal.get()
         
+        
+        
